@@ -1,75 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class IntegerSet{
-public:
-    // constructors, destructor, getter, setter, print, intersection, union
-    IntegerSet(){
-        name = "A";
-        size = 101;
-        ptr = new bool[size];
-        init();
-    }
-    IntegerSet(string n){
-        name = n;
-        size = 101;
-        ptr = new bool[size];
-        init();
-    }
-
-    void print(){
-        cout<<name<<" = { ";
-        for (int i = 0; i < size; ++i) {
-            if(ptr[i] != false){
-                cout<<i<<" ";
-            }
-        }
-        cout<<" } "<<endl;
-    }
-    void insertElement(int x){
-        if(x >=0 && x<= size){
-            ptr[x] = true;
-        }else{
-            cout<<x<<" is not in range "<<endl;
-        }
-    }
-    void deleteElement(int x){
-        if(x >=0 && x<= size){
-            ptr[x] = false;
-        }else{
-            cout<<x<<" is not in range "<<endl;
-        }
-    }
-    IntegerSet unionOf(IntegerSet i){
-        IntegerSet result("U");
-        for (int j = 0; j < size; ++j) {
-            if(ptr[j] == true || i.ptr[j] == true){
-                result.ptr[j] = true;
-            }
-        }
-        return result;
-    }
-    IntegerSet intersectionOf(IntegerSet i){
-        IntegerSet result("I");
-        for (int j = 0; j < size; ++j) {
-            if(ptr[j] == true && i.ptr[j] == true){
-                result.ptr[j] = true;
-            }
-        }
-        return result;
-    }
-
-private:
-    string name;
-    int size;
-    bool *ptr;
-
-    void init(){
-        for (int i = 0; i < size; ++i) {
-            ptr[i] = false;
-        }
-    }
-};
+#include "integerset.cpp"
 int main() {
     IntegerSet A("A");
     IntegerSet B("B");
@@ -92,5 +24,8 @@ int main() {
     C.print();
     IntegerSet D = A.intersectionOf(B);
     D.print();
+    int arr[] = {10,12,15,19,22,28};
+    IntegerSet newSet(arr,6,"NewSet");
+    newSet.print();
     return 0;
 }

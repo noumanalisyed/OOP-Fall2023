@@ -100,3 +100,383 @@ events:
         
       exitCode: 1
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/msys64/mingw64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/msys64/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2s5s9c"
+      binary: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2s5s9c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2s5s9c
+        
+        Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_9a120/fast && Access is denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: E:/msys64/mingw64/bin/cc.exe"
+    directories:
+      source: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5lake5"
+      binary: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5lake5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5lake5
+        
+        Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_5c185/fast && Access is denied
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/msys64/mingw64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/msys64/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fgpm7w"
+      binary: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fgpm7w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fgpm7w
+        
+        Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_a556a/fast && Access is denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: E:/msys64/mingw64/bin/cc.exe"
+    directories:
+      source: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v15woo"
+      binary: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v15woo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v15woo
+        
+        Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_f03d1/fast && Access is denied
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/msys64/mingw64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/msys64/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-00cyu0"
+      binary: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-00cyu0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-00cyu0
+        
+        Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_cc578/fast && Access is denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: E:/msys64/mingw64/bin/cc.exe"
+    directories:
+      source: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xod82y"
+      binary: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xod82y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xod82y
+        
+        Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_8164f/fast && Access is denied
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/msys64/mingw64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/msys64/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g5re9e"
+      binary: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g5re9e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g5re9e
+        
+        Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_befa5/fast && Access is denied
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: E:/msys64/mingw64/bin/cc.exe"
+    directories:
+      source: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-owqkg4"
+      binary: "E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-owqkg4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: E:/c-workspace/integer-set/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-owqkg4
+        
+        Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_f98f4/fast && Access is denied
+        
+      exitCode: 1
+...
