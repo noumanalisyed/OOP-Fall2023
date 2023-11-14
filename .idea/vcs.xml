@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OOPTemplate/merklerex_end_topic_5" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/candle-stick-graph" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/currency-exchange-simulator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/currency_exchange" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oop-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oop-repo/point-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/oop-repo/student-proj" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/point-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/prj-student" vcs="Git" />
+  </component>
+</project>
