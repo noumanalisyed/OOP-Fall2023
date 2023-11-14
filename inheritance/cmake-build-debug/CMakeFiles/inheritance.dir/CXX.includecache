@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/c-workspace/inheritance/circle.h
+shape.h
+E:/c-workspace/inheritance/shape.h
+
+E:/c-workspace/inheritance/main.cpp
+iostream
+-
+point.h
+E:/c-workspace/inheritance/point.h
+shape.h
+E:/c-workspace/inheritance/shape.h
+circle.h
+E:/c-workspace/inheritance/circle.h
+rectangle.h
+E:/c-workspace/inheritance/rectangle.h
+
+E:/c-workspace/inheritance/point.h
+iostream
+-
+
+E:/c-workspace/inheritance/rectangle.h
+shape.h
+E:/c-workspace/inheritance/shape.h
+
+E:/c-workspace/inheritance/shape.h
+point.h
+E:/c-workspace/inheritance/point.h
+

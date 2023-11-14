@@ -1,0 +1,105 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dzau3d
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_db6b8/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_db6b8/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-k3wf5e
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_32c94/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_32c94/fast && 
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-seg2hb
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_8ee9f/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_8ee9f/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fd2740
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_494fe/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_494fe/fast && 
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-669aq8
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_5b2f3/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_5b2f3/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h6rxvj
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_a9f45/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_a9f45/fast && 
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wi9z7h
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_8af16/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_8af16/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-thy0pv
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_7a876/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_7a876/fast && 
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tgu3wi
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_b23b3/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_b23b3/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f0sdxn
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_ce577/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_ce577/fast && 
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ob86fa
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_f7b10/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_f7b10/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wm2fof
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_6e2f2/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_6e2f2/fast && 
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7svd3x
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_52976/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_52976/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/c-workspace/new-project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-n82kkw
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_940f7/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_940f7/fast && 
+
+

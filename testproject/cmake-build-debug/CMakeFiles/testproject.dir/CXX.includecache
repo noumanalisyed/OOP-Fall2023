@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/c-workspace/testproject/appointment.h
+iostream
+-
+date.h
+E:/c-workspace/testproject/date.h
+time.h
+E:/c-workspace/testproject/time.h
+person.h
+E:/c-workspace/testproject/person.h
+
+E:/c-workspace/testproject/date.h
+ostream
+-
+
+E:/c-workspace/testproject/main.cpp
+iostream
+-
+person.h
+E:/c-workspace/testproject/person.h
+date.h
+E:/c-workspace/testproject/date.h
+time.h
+E:/c-workspace/testproject/time.h
+appointment.h
+E:/c-workspace/testproject/appointment.h
+
+E:/c-workspace/testproject/person.h
+iostream
+-
+
+E:/c-workspace/testproject/time.h
+iostream
+-
+synchapi.h
+-
+conio.h
+-
+

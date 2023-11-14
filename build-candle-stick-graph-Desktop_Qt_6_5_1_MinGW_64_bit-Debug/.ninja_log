@@ -1,0 +1,17 @@
+# ninja log v5
+1	46	0	E:/c-workspace/build-candle-stick-graph-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	870826047bc0ac98
+1	1298	7111556475869728	candle-stick-graph_autogen/timestamp	129ff9c2a586af3
+1	1298	7111556475869728	candle-stick-graph_autogen/mocs_compilation.cpp	129ff9c2a586af3
+1	1298	7111556475869728	E:/c-workspace/build-candle-stick-graph-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/candle-stick-graph_autogen/timestamp	129ff9c2a586af3
+1	1298	7111556475869728	E:/c-workspace/build-candle-stick-graph-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/candle-stick-graph_autogen/mocs_compilation.cpp	129ff9c2a586af3
+1306	4010	7111556504384523	CMakeFiles/candle-stick-graph.dir/main.cpp.obj	974bdbbc09a432fc
+1	39	0	E:/c-workspace/build-candle-stick-graph-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	870826047bc0ac98
+385	2940	7111556547488555	CMakeFiles/candle-stick-graph.dir/candle-stick-graph_autogen/mocs_compilation.cpp.obj	8ae8271a2f6c3a2c
+394	3020	7111556548283703	CMakeFiles/candle-stick-graph.dir/mainwindow.cpp.obj	8b126f5f6c7d9ae5
+3020	3841	7111556556453086	candle-stick-graph.exe	41cf712583f2226f
+2	46	0	E:/c-workspace/build-candle-stick-graph-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	870826047bc0ac98
+9	252	7111557859679228	candle-stick-graph_autogen/timestamp	129ff9c2a586af3
+9	252	7111557859679228	candle-stick-graph_autogen/mocs_compilation.cpp	129ff9c2a586af3
+9	252	7111557859679228	E:/c-workspace/build-candle-stick-graph-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/candle-stick-graph_autogen/timestamp	129ff9c2a586af3
+9	252	7111557859679228	E:/c-workspace/build-candle-stick-graph-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/candle-stick-graph_autogen/mocs_compilation.cpp	129ff9c2a586af3
+262	3095	7111557888165581	CMakeFiles/candle-stick-graph.dir/mainwindow.cpp.obj	8b126f5f6c7d9ae5

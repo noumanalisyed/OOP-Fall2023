@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/c-workspace/Final-Fall2022-Q2-b/date.h
+
+E:/c-workspace/Final-Fall2022-Q2-b/main.cpp
+iostream
+-
+iomanip
+-
+date.h
+E:/c-workspace/Final-Fall2022-Q2-b/date.h
+time.h
+E:/c-workspace/Final-Fall2022-Q2-b/time.h
+date.h
+E:/c-workspace/Final-Fall2022-Q2-b/date.h
+person.h
+E:/c-workspace/Final-Fall2022-Q2-b/person.h
+
+E:/c-workspace/Final-Fall2022-Q2-b/person.h
+iostream
+-
+
+E:/c-workspace/Final-Fall2022-Q2-b/time.h
+iostream
+-
+synchapi.h
+-
+conio.h
+-
+

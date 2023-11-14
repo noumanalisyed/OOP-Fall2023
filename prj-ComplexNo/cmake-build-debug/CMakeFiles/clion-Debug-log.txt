@@ -1,0 +1,30 @@
+C:\Users\nouman\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\232.8660.186\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/msys64/mingw64 -G "CodeBlocks - MinGW Makefiles" -S E:\c-workspace\prj-ComplexNo -B E:\c-workspace\prj-ComplexNo\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: E:/msys64/mingw64/bin/cc.exe
+-- Check for working C compiler: E:/msys64/mingw64/bin/cc.exe - broken
+CMake Error at C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "E:/msys64/mingw64/bin/cc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: E:/c-workspace/prj-ComplexNo/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-upmhi2
+    
+    Run Build Command(s):C:/Users/nouman/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/232.8660.186/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 E:/msys64/mingw64 -f Makefile cmTC_34a93/fast && Access is denied
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,15 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/c-workspace/splitting-data/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6vmvw5
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_60b4c/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_60b4c/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/c-workspace/splitting-data/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ei71o8
+
+Run Build Command(s):E:/msys64/mingw64 -f Makefile cmTC_55deb/fast && Access is denied
+Generator: execution of make failed. Make command was: E:/msys64/mingw64 -f Makefile cmTC_55deb/fast && 
+
+

@@ -1,0 +1,3 @@
+E:/c-workspace/pointer-dimension/cmake-build-debug/CMakeFiles/pointer_dimension.dir
+E:/c-workspace/pointer-dimension/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/c-workspace/pointer-dimension/cmake-build-debug/CMakeFiles/rebuild_cache.dir

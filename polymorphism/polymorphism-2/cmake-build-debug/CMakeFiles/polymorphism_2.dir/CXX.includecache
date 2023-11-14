@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/c-workspace/polymorphism/polymorphism-2/main.cpp
+string
+-
+iostream
+-
+iostream
+-
+string
+-
+iostream
+-
+iostream
+-
+iomanip
+-
+

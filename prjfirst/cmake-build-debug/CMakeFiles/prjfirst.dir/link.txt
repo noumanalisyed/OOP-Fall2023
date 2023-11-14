@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\prjfirst.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\prjfirst.dir/objects.a @CMakeFiles\prjfirst.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\prjfirst.dir/objects.a -Wl,--no-whole-archive  -o prjfirst.exe -Wl,--out-implib,libprjfirst.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\prjfirst.dir\linklibs.rsp

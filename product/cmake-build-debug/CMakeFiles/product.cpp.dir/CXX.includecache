@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/c-workspace/product/main.cpp
+iostream
+-
+stdlib.h
+-
+productdetail.h
+E:/c-workspace/product/productdetail.h
+product.h
+E:/c-workspace/product/product.h
+
+E:/c-workspace/product/product.h
+iostream
+-
+stdlib.h
+-
+productdetail.h
+E:/c-workspace/product/productdetail.h
+
+E:/c-workspace/product/productdetail.cpp
+productdetail.h
+E:/c-workspace/product/productdetail.h
+
+E:/c-workspace/product/productdetail.h
+iostream
+-
+stdlib.h
+-
+
